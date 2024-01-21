@@ -1,0 +1,22 @@
+let container = document.getElementById('container');
+console.log(container);
+const listItem = document.getElementsByClassName('first')
+let containerId = document.querySelector('#container')
+document.querySelectorAll('.second')
+document.querySelectorAll('ol.third')
+const foundDiv = document.querySelectorAll('#container')
+foundDiv.innerText = 'hello'
+const footer = document.querySelector('.footer');
+footer.classList.add ('Main');
+let footer = document.querySelector(".footer");
+footer.classList.remove('Main');
+let newLi = document.createElement('li');
+newLi.innerText = 'four'
+let list = document.querySelector('ul');
+list.appendChild(newLi);
+let liInsideol = document.querySelectorAll('ol li');
+for(let i = 0; i < liInsideol.length; i++){
+    liInsideol[i].computedStyleMap.backgroundColor = 'green';
+}
+let footer = document.querySelector('footer');
+footer.remove();
